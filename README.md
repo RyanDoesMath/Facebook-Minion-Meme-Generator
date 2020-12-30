@@ -12,3 +12,6 @@ I have considered supplementing the training of the AI with a few thousand lines
 We are currently at 366 datapoints. I keep the code for training the AI off of this repo, but I added the CSV containing the transcribed memes so others can see the kind of data that the AI is working with.
 
 Here are some examples of the current output.
+![alt text](https://github.com/RyanDoesMath/Facebook-Minion-Meme-Generator/blob/main/Sample_Output/hilarious_minion_meme_01.jpg)
+![alt text](https://github.com/RyanDoesMath/Facebook-Minion-Meme-Generator/blob/main/Sample_Output/hilarious_minion_meme_02.jpg)
+![alt text](https://github.com/RyanDoesMath/Facebook-Minion-Meme-Generator/blob/main/Sample_Output/hilarious_minion_meme_03.jpg)
