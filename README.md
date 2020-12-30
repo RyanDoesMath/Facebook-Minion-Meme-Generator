@@ -2,6 +2,8 @@
 - Larry the Cucumber, Veggietales.
 
 # Facebook-Minion-Meme-Generator
+This is easily the worst thing I've ever coded.
+
 Uses aitextgen and the Python image library to automatically generate Facebook-tier minion memes.
 
 The ai is nowhere close to speaking comprehensible English. 
