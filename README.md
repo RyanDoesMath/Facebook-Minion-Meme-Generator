@@ -4,7 +4,7 @@
 # Facebook-Minion-Meme-Generator
 This is easily the worst thing I've ever coded.
 
-Uses aitextgen and the Python image library to automatically generate Facebook-tier minion memes.
+Facebook minion meme generator is a program that uses an AI from aitextgen and the Python image library to automatically generate Facebook-tier minion memes.
 
 The ai is nowhere close to speaking comprehensible English. 
 Rather than simply prompting an already trained AI with minion-meme-eqsue prompts, I opted to train an AI from scratch on only the text transcribed from minion and minion like boomer mom memes. The advantage of this is that the AI can only produce text with the particular cadence and punctuation of a Facebook minion meme.
@@ -17,3 +17,5 @@ Here are some examples of the current output.
 ![alt text](https://github.com/RyanDoesMath/Facebook-Minion-Meme-Generator/blob/main/Sample_Output/hilarious_minion_meme_01.jpg)
 ![alt text](https://github.com/RyanDoesMath/Facebook-Minion-Meme-Generator/blob/main/Sample_Output/hilarious_minion_meme_02.jpg)
 ![alt text](https://github.com/RyanDoesMath/Facebook-Minion-Meme-Generator/blob/main/Sample_Output/hilarious_minion_meme_03.jpg)
+
+AI used https://github.com/minimaxir/aitextgen
