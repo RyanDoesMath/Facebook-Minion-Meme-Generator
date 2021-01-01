@@ -10,6 +10,8 @@ from aitextgen.utils import GPT2ConfigCPU
 A script that uses an AI to automatically generate a minion meme.
 '''
 
+main()
+
 # TODO - add various layouts for the meme other than text in the top left + minion in bottom right.
 # TODO - Make a method that will convert the final image to jpeg, then make the jpeg to a smaller
 #        size, then resize it to make it look like trash and get jpeg artifacting.
@@ -23,6 +25,13 @@ BACKGROUND_COLORS = [
     '#b2f6b9', '#d9dcd5', '#bdd4e0', '#e9ded8', '#f7e0bd',
     '#ebf7f1', '#efe6ee', '#dbdaab', '#edf7f6', '#e9cfb2',
     '#edebd7', '#e9ded8', '#e9ded8', '#eef6f7', '#ebe9bb']
+
+
+def main():
+    # Saves the final meme.
+    output = combine_images()
+    output.save('hilarious_minion_meme.jpg')
+
 
 def make_text():
     '''
@@ -113,8 +122,3 @@ def combine_images():
     image.paste(transparent_text, (0, 0), mask=transparent_text)
 
     return image
-
-
-# Saves the final meme.
-output = combine_images()
-output.save('hilarious_minion_meme.jpg')
